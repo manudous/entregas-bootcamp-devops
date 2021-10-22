@@ -1,0 +1,16 @@
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\backend.exe
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\appsettings.Development.json
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\appsettings.json
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\backend.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\backend.deps.json
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\backend.runtimeconfig.json
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\backend.pdb
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\DnsClient.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\MongoDB.Bson.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\MongoDB.Driver.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\MongoDB.Driver.Core.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\MongoDB.Libmongocrypt.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\SharpCompress.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\runtimes\win\native\libzstd.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\runtimes\win\native\snappy32.dll
+D:\programacion\lemoncode\bootcamp-devops\entregas-bootcamp-devops\01-Contenedores\lemoncode-challenge\backend\out\runtimes\win\native\snappy64.dll

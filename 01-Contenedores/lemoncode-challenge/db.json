@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5fa2ca6abe7a379ec4234883"},"Name":"Contenedores"}
+{"_id":{"$oid":"616de5b27b6e5c4992976cd6"},"Name":"Kubernetes"}
+{"_id":{"$oid":"616de64c09dbd5df33be30ac"},"Name":"Linux"}
+{"_id":{"$oid":"616de653b0678ffc65d4f234"},"Name":"Orquestacion"}
+{"_id":{"$oid":"616de659b3af328dd88b5728"},"Name":"Cd"}
+{"_id":{"$oid":"616de65f12658898d57bee1c"},"Name":"Cloud"}
