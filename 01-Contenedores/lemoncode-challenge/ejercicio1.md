@@ -12,6 +12,11 @@ $ docker network create lemoncode-challenge
 $ docker run -d --name some-mongo -p 27017:27017 --network lemoncode-challenge --mount source=mongo-volume,target=/data/db/mongo-volume mongo
 ```
 
+>## Introduzco más datos a mi base de datos con el archivo db.json
+```
+db.json
+```
+
 >## Dockerfile del Backend
 ```bash
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
@@ -36,12 +41,6 @@ ENTRYPOINT ["dotnet", "backend.dll"]
 ```bash
 $ docker build -t backend .
 ```
-
->## Introduzco más datos a mi base de datos con el archivo db.json
-```
-db.json
-```
-
 >## Creamos el contenedor para el backend y lo metemos en nuestro network lomoncode-challenge
 
 ```bash
