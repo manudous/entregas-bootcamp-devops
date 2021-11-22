@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mln
+  name: mln
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mln
+  template:
+    metadata:
+      labels:
+        app: mln
+    spec:
+      containers:
+        - image: manudous/lc-todo-monolith
+          name: lc-todo-monolith
+          envFrom:
+            - configMapRef:
+                name: cm-lc-todo-monolith

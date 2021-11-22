@@ -1,0 +1,9 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: cm-lc-todo-monolith
+  labels:
+    app: mln
+data:
+  NOD_ENV: "production"
+  PORT: "3000"
