@@ -21,3 +21,16 @@ Start frontend, in order to get connected fron and back, you must build the imag
 ```bash
 $ docker run -d -p 80:80 --name todo-front lemoncode/todo-front
 ```
+
+Si queries usar dns de forma fácil para ingress, sin necesidad de editar el hosts, existe https://nip.io/
+
+Instalar addon minikube
+```bash
+$ minikube addons enable ingress
+```
+```bash
+$ minikube service ingress-nginx-controller -n ingress-nginx
+```
+
+DNS poner en Ingress
+DNS: localtest.me

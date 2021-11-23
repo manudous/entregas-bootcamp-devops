@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: ctldb
+  name: ctldb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ctldb
+  template:
+    metadata:
+      labels:
+        app: ctldb
+    spec:
+      containers:
+        - image: manudous/lc-todo-db
+          name: lc-todo-db
+          envFrom:
+            - configMapRef:
+                name: cm-lc-todo-db
+          ports:
+            - containerPort: 3000
+              name: todo-db

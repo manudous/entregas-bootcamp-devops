@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-sql-svc
+  labels:
+    app: todo-sql-svc
+spec:
+  selector:
+    app: postgres
+  ports:
+    - port: 5432
+  type: NodePort

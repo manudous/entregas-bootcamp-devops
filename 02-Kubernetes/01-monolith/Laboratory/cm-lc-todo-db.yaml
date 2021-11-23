@@ -1,0 +1,15 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: cm-lc-todo-db
+  labels:
+    app: ctldb
+data:
+  NODE_ENV: production
+  PORT: "3000"
+  DB_HOST: todo-sql-svc
+  DB_USER: postgres
+  DB_PASSWORD: postgres
+  DB_PORT: "5432"
+  DB_NAME: todos_db
+  DB_VERSION: "10.4"
