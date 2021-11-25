@@ -36,9 +36,9 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: mln
   labels:
     app: mln
-  name: mln
 spec:
   replicas: 1
   selector:
@@ -70,6 +70,8 @@ spec:
     app: mln
   ports:
   - port: 3000
+    protocol: TCP
+    targetPort: 3000
   type: NodePort
 ```
 ./02-Kubernetes/00-monolith-in-mem/Laboratory
