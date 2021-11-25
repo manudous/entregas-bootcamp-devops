@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: mln
   labels:
     app: mln
-  name: mln
 spec:
   replicas: 1
   selector:
