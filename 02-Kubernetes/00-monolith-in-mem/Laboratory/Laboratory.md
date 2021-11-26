@@ -90,7 +90,10 @@ mln            NodePort    10.97.105.178    <none>        3000:30131/TCP   12s
 ```
 localhost:30131
 ```
-
+If we context is Minikube use:
+```
+minikube service --url mln
+```
 
 
 
