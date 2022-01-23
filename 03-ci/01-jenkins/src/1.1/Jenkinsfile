@@ -5,8 +5,7 @@ pipeline {
     stage('Checkout') {
       steps {
           git branch: 'master',
-            url: 'https://github.com/manudous/entregas-bootcamp-devops'
-   
+            url: 'https://github.com/manudous/entregas-bootcamp-devops'  
       }
     }
     stage('Compile') {

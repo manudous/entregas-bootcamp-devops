@@ -1,0 +1,33 @@
+pipeline {
+  agent {
+        docker { image gradle }
+    }
+
+  stages {
+    stage('Checkout') {
+      steps {
+          git branch: 'master',
+            url: 'https://github.com/manudous/entregas-bootcamp-devops'  
+      }
+    }
+    stage('Compile') {
+      steps {
+        dir('./03-ci/01-jenkins') {
+          echo "Building source code"
+          sh '''
+            chmod +x ./gradlew
+            ./gradlew
+          '''
+        }
+      }
+    }
+    stage('Unit Test') {
+      steps {
+        dir('./03-ci/01-jenkins') {
+          echo "Testing source code"
+          sh './gradlew test'
+        }
+      }
+    }
+  }
+}
