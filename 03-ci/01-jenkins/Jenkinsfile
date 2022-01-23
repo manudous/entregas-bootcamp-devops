@@ -1,0 +1,27 @@
+pipeline {
+  agent any
+
+  stages {
+    stage('Compile') {
+      steps {
+        dir('./03-ci/01-jenkins') {
+          echo "Building source code"
+          sh '''
+            chmod +x ./gradlew
+            './gradlew compileJava'
+          '''
+        }
+      }
+    }
+    stage('Unit Test') {
+      steps {
+        dir('./03-ci/01-jenkins') {
+          echo "Testing source code"
+          sh '''
+            './gradlew test'
+          '''
+        }
+      }
+    }
+  }
+}
